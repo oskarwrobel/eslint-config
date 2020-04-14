@@ -1,9 +1,22 @@
 {
-  "name": "eslint-config",
+  "name": "@oskarwrobel/eslint-config",
   "version": "1.0.0",
   "description": "ESLint config for JS and TypeScript code.",
+  "private": false,
   "main": ".eslintrc",
   "license": "MIT",
+  "author": "Oskar Wróbel <kontakt@oskarwrobel.pl>",
+  "keywords": [
+    "deploy"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oskarwrobel/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oskarwrobel/eslint-config/issues"
+  },
+  "homepage": "https://github.com/oskarwrobel/eslint-config#readme",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.24.0",
     "@typescript-eslint/parser": "^2.24.0",
