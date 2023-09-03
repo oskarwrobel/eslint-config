@@ -1,6 +1,6 @@
 {
   "name": "@oskarwrobel/eslint-config",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "ESLint config for JS and TypeScript code.",
   "private": false,
   "main": ".eslintrc",
@@ -18,9 +18,11 @@
   },
   "homepage": "https://github.com/oskarwrobel/eslint-config#readme",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.24.0",
-    "@typescript-eslint/parser": "^2.24.0",
-    "eslint": "^6.8.0",
-    "typescript": "^3.8.3"
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
+    "eslint": "^8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
   }
 }
